@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+html {
+    background-image: url(html-color-codes-color-tutorials-hero.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover; 
+}
+
+
+.container {
+    background: orange ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    margin-left: 90px;
+    margin-right: 90px;
+
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    width: 60px;
+    border-radius: 20%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.menu li {
+    list-style: none;
+    color: rgb(223, 135, 20);
+}
+
+.button {
+    color: rgb(94, 57, 13);
+    text-decoration: none;
+    background-color:gold;
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.content h1 {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    color: gold;
+    margin: 30px;
+}
+
+.content img {
+    width: 500px;
+    display: block;
+    margin: auto;
+    border-radius: 30px;
+}

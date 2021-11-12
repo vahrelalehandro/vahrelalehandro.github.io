@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500&display=swap');
+
+html {
+    background-image: url(bg\ video.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover; 
+}
+
+h1 {
+    font-family: 'Signika', sans-serif;
+    text-align: center;
+    color:rgb(75, 18, 3);
+    margin: 40px;
+}
+
+iframe {
+  display: block;
+  margin: auto;
+}
